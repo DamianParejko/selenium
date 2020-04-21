@@ -1,0 +1,12 @@
+*.pyc
+*~
+__pycache__
+myvenv
+lib/
+lib64
+db.sqlite3
+/static
+.DS_Store
+geckodriver.log
+bin/
+pyvenv.cfg
