@@ -25,7 +25,6 @@ class Instagram():
         login_button = driver.find_element_by_xpath("/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div[4]")
         login_button.click()
 
-
         user_elem = driver.find_element_by_xpath("//input[@name='username']")
         password_elem = driver.find_element_by_xpath("//input[@name='password']")
 
@@ -78,8 +77,8 @@ class Instagram():
 
 if __name__ == '__main__':
 
-    user = 'thasente99'
-    passw = 'fie5aeMu0'
+    user = 'xxxxxx'
+    passw = 'xxxxxx'
 
     #wywołanie
     user = Instagram(username=user, password=passw)
